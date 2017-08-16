@@ -26,4 +26,4 @@ getUsers().then(result => {
       row.parentNode.removeChild(row);
     }
   })
-})
+});
