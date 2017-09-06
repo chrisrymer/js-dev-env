@@ -19,6 +19,29 @@ app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
+app.get('/users', function(req, res) {
+  res.json([
+    {
+    "id": 94313497,
+    "firstName": "Terry",
+    "lastName": "Legros",
+    "email": "Gideon66@gmail.com"
+    },
+    {
+      "id": 69400438,
+      "firstName": "Cleve",
+      "lastName": "Feest",
+      "email": "Estevan_Welch17@yahoo.com"
+    },
+    {
+      "id": 84670891,
+      "firstName": "Bria",
+      "lastName": "Mills",
+      "email": "Cordelia.Bahringer@yahoo.com"
+    }
+  ]);
+});
+
 app.listen(port, function(err){
   if(err) {
     console.log(err);
