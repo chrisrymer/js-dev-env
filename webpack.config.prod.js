@@ -45,7 +45,7 @@ export default {
         minifyURLs: true
       },
       inject: true,
-      trackJSToken: '96ff406bebc04b3f8abcdfb47fb883df'
+      trackJSToken: ''
     }),
     
     // Eliminate dupe packages
