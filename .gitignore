@@ -61,4 +61,4 @@ typings/
 dist/
 
 # mock data
-db.json
+src/api/db.json
