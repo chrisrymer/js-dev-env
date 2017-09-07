@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# build directory
+dist/
+
+# mock data
+db.json
